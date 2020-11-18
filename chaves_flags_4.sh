@@ -56,10 +56,10 @@ CHAVE_MAIUSCULO=0
 while test -n "$1"
 do
   case "$1" in
-    -h) echo "$MENSAGEM_USO" && exit 0               ;;
-    -v) echo "$VERSAO" && exit 0                     ;;
-    -s) CHAVE_ORDENA=1                               ;;
-    -m) CHAVE_MAIUSCULO=1                            ;;
+    -h) echo "$MENSAGEM_USO" && exit 0                  ;;
+    -v) echo "$VERSAO" && exit 0                        ;;
+    -s) CHAVE_ORDENA=1                                  ;;
+    -m) CHAVE_MAIUSCULO=1                               ;;
      *) echo "Opção inválida, use help (-h)." && exit 1 ;;
   esac
   shift

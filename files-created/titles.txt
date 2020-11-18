@@ -1,0 +1,30 @@
+Microsoft Defender for Linux adds new security feature
+$6 billion Linux deal? SUSE IPO rumored
+Check the day of year, given a date
+Why Companies Can Benefit From Open Source
+who Command in Linux
+First two i.MX8M Plus SMARC modules break cover
+Firefox 84 Promises to Finally Enable WebRender By Default on Linux/X11
+On Laptops: Thoughts On Using CentOS, Ubuntu LTS, and Fedora
+How to upgrade to Terraform 0.12
+Tails 4.13 Anonymous Linux Distro Released with Mozilla Thunderbird 78
+SMARC module runs Linux on up to octa-core Renesas RZ/G2
+My top 7 Rust commands for using Cargo
+Forget ZFS and use Btrfs
+PinePhone KDE Linux phone is getting ready for pre-orders
+Bootable Live USB Creator UNetbootin 700 Released With Qt5 Support
+Mozilla Firefox 83 Is Now Available for Download with HTTPS-Only Mode, Improvements
+ The Linux Foundation launches free online inclusivity training
+Manage multiple Terraform versions with tfenv
+9to5Linux Weekly Roundup: November 15th, 2020
+KDE maintainers speak on why it is worth looking beyond GNOME
+Podman with capabilities on Fedora
+Embedded Nautilus Terminal Plugin Adds Configurable Toggle Shortcut And Colors
+KDE Plasma 5.21 Bringing Native Fingerprint Manager
+Allwinner H3 maker board could be smallest Linux-powered SBC yet
+Gentoo: GLSA-202011-17: MIT Kerberos 5: Denial of service>
+Unlock encrypted disks on Linux automatically
+Display Ping Command Output In Graph Format Using Gping
+How to Install and Create a Blog with Hexo on Ubuntu 20.04
+How to read and correct SELinux denial messages
+How to use Serializers in the Django Python web framework
