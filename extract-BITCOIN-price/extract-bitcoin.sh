@@ -26,6 +26,7 @@ MESSAGE=(
 )
 HIT_API=${1:-1}
 URL_API=https://www.mercadobitcoin.com.br/api/BTC/ticker
+
 # ACESSAR_API=curl $URL_API
 MESSAGE_VALUES=()
 # SOMA_VALOR_COMPRA=(array com valores atualizados valor compra)
@@ -38,9 +39,21 @@ MESSAGE_VALUES=()
 # ------------------------------------------------------------------------ #
 
 # ------------------------------- FUNÇÕES ----------------------------------------- #
+addValues () {
+	read MESSAGE_VALUES[0] <<< $(curl ${URL_API} | cut -f3 -d':' | sed 's/"//g; s/,low//')
+	read MESSAGE_VALUES[1] <<< $(curl ${URL_API} | cut -f4 -d':' | sed 's/"//g; s/,vol//')
+	read MESSAGE_VALUES[2] <<< $(curl ${URL_API} | cut -f5 -d':' | sed 's/"//g; s/,last//')
+	read MESSAGE_VALUES[3] <<< $(curl ${URL_API} | cut -f7 -d':' | sed 's/"//g; s/,sell//')
+	read MESSAGE_VALUES[4] <<< $(curl ${URL_API} | cut -f8 -d':' | sed 's/"//g; s/,open//')
+}
 
 # ------------------------------------------------------------------------ #
 
 # ------------------------------- EXECUÇÃO ----------------------------------------- #
-
+addValues
+echo ${MESSAGE[1]} ${MESSAGE_VALUES[0]}
+echo ${MESSAGE[1]} ${MESSAGE_VALUES[1]}
+echo ${MESSAGE[1]} ${MESSAGE_VALUES[2]}
+echo ${MESSAGE[1]} ${MESSAGE_VALUES[3]}
+echo ${MESSAGE[1]} ${MESSAGE_VALUES[4]}
 # ------------------------------------------------------------------------ #
