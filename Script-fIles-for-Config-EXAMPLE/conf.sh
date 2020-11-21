@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+[ ! -x "$(which figlet)" ] && sudo apt install figlet -y
+figlet "~ Wilbur ~"
 # ------------------------------- VARIÁVEIS ----------------------------------------- #
 ARQUIVO_DE_CONFIGURACAO="configuracao.cf"
 USAR_CORES=

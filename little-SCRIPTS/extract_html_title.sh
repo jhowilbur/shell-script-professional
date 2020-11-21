@@ -16,15 +16,16 @@
 # ------------------------------------------------------------------------ #
 # Histórico:
 #
-#   v1.0 03/10/2018, Wilbur:
+#   v1.0 Wilbur:
 #       - Montamos a expressões regular com fator em comum
-#   v1.1 10/10/2018, Wilbur:
+#   v1.1 Wilbur:
 #       - Criado primeiro código com cores
 # ------------------------------------------------------------------------ #
 # Testado em:
 #   bash 4.4.19
 # ------------------------------------------------------------------------ #
-
+[ ! -x "$(which figlet)" ] && sudo apt install figlet -y
+figlet "~ Wilbur ~"
 # ------------------------------- VARIÁVEIS ----------------------------------------- #
 ARQUIVO_DE_TITULOS="titles.txt"
 FOLDER="files-created/"

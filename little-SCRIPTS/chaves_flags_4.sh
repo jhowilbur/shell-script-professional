@@ -16,22 +16,23 @@
 # ------------------------------------------------------------------------ #
 # Histórico:
 #
-#   v1.0 03/10/2018:
+#   v1.0 
 #     - Adicionado -s, -h & -v
-#   v1.1 03/10/2018:
+#   v1.1 
 #     - Trocamos IF pelo CASE
 #     - Adicionamos basename
-#   v1.2 03/10/2018:
+#   v1.2 
 #     - Adicionado -m
 #     - Adicionado 2 flags
-#   v1.3 03/10/2018:
+#   v1.3 
 #     - Adicionado while com shift e teste de variável
 #     - Adicionado 2 flags
 # ------------------------------------------------------------------------ #
 # Testado em:
 #   bash 4.4.19
 # ------------------------------------------------------------------------ #
-
+[ ! -x "$(which figlet)" ] && sudo apt install figlet -y
+figlet "~ Wilbur ~"
 # ------------------------------- VARIÁVEIS ----------------------------------------- #
 USUARIOS="$(cat /etc/passwd | cut -d : -f 1)"
 MENSAGEM_USO="
